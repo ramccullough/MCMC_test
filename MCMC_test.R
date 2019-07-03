@@ -135,5 +135,3 @@ curve(dnorm(x,mean=1, sd=s[, 2]), add=TRUE, lwd=2)
 acceptance_alpha=count[, 1]/N
 acceptance_beta=count[, 2]/N
 
-
-#Random extra lines test
