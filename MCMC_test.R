@@ -1,3 +1,5 @@
+#Monte Carlo Markov Chain algorithm
+
 alpha_true=2
 beta_true=1
 #sd_true=1
@@ -132,6 +134,4 @@ curve(dnorm(x,mean=1, sd=s[, 2]), add=TRUE, lwd=2)
 #acceptance rates
 acceptance_alpha=count[, 1]/N
 acceptance_beta=count[, 2]/N
-
-#Extra test lines
 
